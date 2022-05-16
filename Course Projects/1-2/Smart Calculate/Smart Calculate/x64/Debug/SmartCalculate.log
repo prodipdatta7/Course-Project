@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  MyForm.cpp
+F:\Projects\Course Projects\1-2\Smart Calculate\Smart Calculate\MyForm.cpp(9,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  SmartCalculate.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+LINK : warning LNK4022: cannot find unique match for symbol 'main'
+LINK : warning LNK4002: "int __clrcall main(cli::array<System::PE$AAVString >^)" (?main@@$$HYMHP$01EAPE$AAVString@System@@@Z) defined in x64\Debug\SmartCalculate.obj
+LINK : warning LNK4002: "void __clrcall main(cli::array<System::PE$AAVString >^)" (?main@@$$HYMXP$01EAPE$AAVString@System@@@Z) defined in x64\Debug\MyForm.obj
+LINK : fatal error LNK1152: cannot resolve one or more undecorated symbols
